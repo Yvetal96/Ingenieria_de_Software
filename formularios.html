@@ -1,0 +1,51 @@
+<!--CSS -> Cascade Style sheet
+Se puede incluir en HTML de 3 formas:
+1.<link>
+2.<style>
+3.<body style="">	
+-->
+<!DOCTYPE html> <!--Para copiar Shift + control + D-->
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="estilo.CSS">
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label>Nombre</label>
+			<input type="text">
+		</div>
+		<div>
+			<label>Contraseña</label>
+			<input type="password" maxlength="5">
+		</div>
+		<div>
+			<label>Mis gustos</label>
+			<input type="checkbox"><span>Leer</span>	
+			<input type="checkbox"><span>Futbol</span>	
+			<input type="checkbox"><span>Cine</span>	
+			<input type="checkbox"><span>Bailar</span>	
+		</div>
+		<div>	
+			<label>Genero</label>
+			<input type="radio" name="Genero"><span>Masculino</span>
+			<input type="radio" name="Genero"><span>Femenino</span>
+			<input type="radio" name="Genero"><span>Otros</span>
+		</div>
+		<div>
+			<label>Estado civil</label>
+			<select>
+				<option value="Soltero">Soltero</option>
+				<option value="Casado">Casado</option>
+				<option value="Viudo">Viudo</option>
+				<option value="Union Libre" selected="selected">Union Libre</option>
+				<option value="Divorciado">Divorciado</option>
+			</select>
+		</div>
+		<div>
+			<input type="submit" value="Fierro Pariente">
+		</div>	
+	</form>
+</body>
+</html>
